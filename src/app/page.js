@@ -1,4 +1,3 @@
-import tailwindConfig from "../../tailwind.config";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -18,15 +17,15 @@ export default function Home() {
       </ul>
 
       <div className="flex flex-row pt-4">
-        <Link href="/login" className="mx-7">
-          <button className="rounded-md bg-[#F542A7] decoration-white px-2 py-2 hover:bg-[#5CE1E6] ">
+        <Link href="/login" className="mx-5">
+          <button className="rounded-md bg-pink border-2 border-pink text-white px-3 py-2 hover:bg-aqua hover:border-aqua hover:text-black ">
             {" "}
             Regístrate{" "}
           </button>
         </Link>
 
-        <Link href="/login" className="mx-7">
-          <button> Inicia Sesión </button>
+        <Link href="/login" className="mx-5">
+          <button className="rounded-md border-2 border-pink decoration-white px-3 py-2 hover:bg-pink hover:text-white "> Inicia Sesión </button>
         </Link>
       </div>
 
